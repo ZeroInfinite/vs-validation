@@ -37,12 +37,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.VisualStudio.Validation.Desktop\Microsoft.VisualStudio.Validation.Desktop.csproj">
-      <Project>{e016a630-a79b-4b5d-8997-e66581d62b81}</Project>
-      <Name>Microsoft.VisualStudio.Validation.Desktop</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Microsoft.VisualStudio.Validation.Tests.ruleset" />
     <None Include="project.json" />
   </ItemGroup>

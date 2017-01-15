@@ -33,13 +33,6 @@
     <NoWarn>CS1591</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-    <ProjectReference Include="..\Microsoft.VisualStudio.Validation.Portable\Microsoft.VisualStudio.Validation.Portable.csproj">
-      <Project>{1b0c1b16-1b25-4cc7-ad34-e8f998adecce}</Project>
-      <Name>Microsoft.VisualStudio.Validation.Portable</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Microsoft.VisualStudio.Validation.Tests.Portable.ruleset" />
     <None Include="project.json" />
   </ItemGroup>
